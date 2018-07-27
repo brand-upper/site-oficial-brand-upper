@@ -1,23 +1,28 @@
 {
-  "name": "brandupp",
+  "name": "site-0ficial-brand-upper",
   "version": "1.0.0",
-  "description": "website_oficial",
+  "description": "desenvolvimento principal do website",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brand-upper/site-oficial-brand-upper.git"
+  "scripts": {
+    "test": "test"
   },
-  "author": " <contato@brandupper.com.br> (brandupper <contato@brandupper.com.br>)",
+  "repository": "git+https://github.com/brand-upper/site-oficial-brand-upper.git",
+  "keywords": [
+    "website"
+  ],
+  "author": "Brand Upper",
   "license": "MIT",
-  "private": true,
   "bugs": {
     "url": "https://github.com/brand-upper/site-oficial-brand-upper/issues"
   },
   "homepage": "https://github.com/brand-upper/site-oficial-brand-upper#readme",
-  "scripts": {
-    "test": "true"
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
   },
-  "keywords": [
-    "develop"
-  ]
+  "devDependencies": {
+    "grunt": "^1.0.3"
+  }
 }
