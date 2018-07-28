@@ -1,14 +1,14 @@
 {
   "name": "site-0ficial-brand-upper",
   "version": "1.0.0",
-  "description": "desenvolvimento principal do website",
+  "description": "controle de ferramentas para gestão do tema",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": "git+https://github.com/brand-upper/site-oficial-brand-upper.git",
   "keywords": [
-    "website"
+    "develop"
   ],
   "author": "Brand Upper",
   "license": "MIT",
@@ -23,6 +23,6 @@
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
-    "grunt": "^1.0.3"
+    "gulp": "^3.9.1"
   }
 }
